@@ -305,10 +305,19 @@ a:hover {
 	margin-left: 110px;
 	position: relative;
 	font-size: 2rem;
-	color: #0137FB;
+	color: #3a4e8f;
 	text-align: left;
 }
 
+.content__START2{
+	font-family: "Sora", sans-serif;
+	font-weight: 600;
+	margin-left: 110px;
+	position: relative;
+	font-size: 2rem;
+	color: #464545;
+	text-align: left;
+}
 
 
 .content__title--sponsor {
