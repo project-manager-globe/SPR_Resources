@@ -19,11 +19,9 @@ body {
 	overflow: hidden;
 	overflow-y: scroll;
 	margin: 0;
-	--color-text: #111;
 	--color-text-alt: #c1c1c3;
 	--color-bg: #F9FAFE;
 	--color-link: #111;
-	--color-link-hover: #111;
 	--color-info: #c0c0c2;
 	--color-btn:#6d79a1;
 	color: var(--color-text);
@@ -42,8 +40,6 @@ body {
 	--size-word: 1rem;
 	--size-note:1rem;
 	--font-weight-title:100;
-	color: var(--color-text);
-	background-color: var(--color-page);
 	font-size: 0.8rem;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -181,10 +177,11 @@ a:hover {
 /* ----------------------------- Deleted from Navbar to here, moved to styles.css -------*/
 
 .HOW{
-	color: #005AFC;
 	font-family: "Sora", sans-serif;
-	font-weight: 500;
-	font-size: 25px;
+	color: #0051ff;
+	font-weight:400;
+	font-size: 32px;
+	text-align: left;
 
 }
 
@@ -309,13 +306,13 @@ a:hover {
 	text-align: left;
 }
 
-.content__START2{
+.content__Intro{
 	font-family: "Sora", sans-serif;
-	font-weight: 600;
 	margin-left: 110px;
 	position: relative;
-	font-size: 2rem;
-	color: #464545;
+	font-size: 40px;
+	font-weight: 500;
+	color: #0051ff;
 	text-align: left;
 }
 
